@@ -9,7 +9,7 @@ $("#bFee").bind('keyup', function () {
 function minimumSellPrice () {
     var wPrice = $("#wPrice").val();
     var bFee = $("#bFee").val();
-    if (wPrice) {
+    if (wPrice == '') {
         swal("Warning", "Please enter the buying price", "warning");
     } else {
         var minSellPrice = (wPrice * bFee) + wPrice;
