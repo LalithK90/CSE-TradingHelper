@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Colombo Stock Exchange - Trading Helper</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="container">
+        <!-- header section (name) -->
+        <div class="row mb-3 mt-3">
+            <div class="container-fluid main-heading">
+                <h3 class="text-center">Colombo Stock Exchange <br /> Trading Helper </h3>
+            </div>
+        </div>
+
+        <!-- buy and sell calculator -->
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row mt-2 mb-2">
+                    <div class="container-fluid sub-heading">
+                        <h5 class="text-center">What is the minimum sell price covert to cost </h5>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 col-sm-12 d-block justify-content-center">
+                        <div class="form-group">
+                            <label for="wPrice">Buy One Share Price (LKR):</label>
+                            <input type="number" class="form-control form-control-sm" id="wPrice"
+                                aria-describedby="wPriceId" step="0.01">
+                            <small id="wPriceId" class="form-text text-muted">Wish Price to buy for one share</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label for="bFee">Commission (Broker free + taxes)(%):</label>
+                            <input type="number" class="form-control form-control-sm" id="bFee"
+                                aria-describedby="bFeeId" step="0.01">
+                            <small id="bFeeId" class="form-text text-muted">Add percentage (broker fee and tax fee)
+                                (%)</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label for="minSellPrice">Minimum One Share Price to Cost Cover (LKR):</label>
+                            <input type="number" class="form-control form-control-sm" id="minSellPrice"
+                                aria-describedby="minSellPriceId" readonly>
+                            <small id="minSellPriceId" class="form-text text-muted">Be patient without selling one share
+                                price up to
+                                this
+                                point</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- average calculator -->
+
+        <!-- footer section -->
+        <div class="row mt-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-center">
+                            Copyright © <span id="year"></span> Colombo Stock Exchange
+                            Trading Helper . Solution by <a href="" target="_blank"> <span
+                                    class="text-decoration-none"></span>
+                                Lalith </span></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <script src="./js/sweetalert.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
